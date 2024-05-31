@@ -7,10 +7,10 @@ const Data = () => {
         Shahid Aydrose
       </h1>
 
-      <h3 className="home__subtitle">React JS Developer</h3>
+      <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
         {" "}
-        I'm creative React Js Developer and specializing in frontend development
+        I'm a Frontend Developer with expertise in building responsive and dynamic web applications.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

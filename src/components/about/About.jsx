@@ -12,11 +12,11 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            React.js developer with expertise in frontend development, state
-            management, and optimization.Focus on creating fluid user
-            interfaces. Possesses robust problem-solving abilities, attention to
-            detail, collaborative mindset. Committed to ongoing professional
-            development and continuous learning.
+            As a Web Developer, I focused in frontend development and proficient in state
+            management optimization, creating fluid user interfaces. 
+             I am also familiar with backend development, including working with server-side technologies,
+             databases, and API integrations. 
+             
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV{" "}
