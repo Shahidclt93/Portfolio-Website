@@ -13,7 +13,7 @@ const About = () => {
           <Info />
           <p className="about__description">
             As a Web Developer, I focused in frontend development and proficient in state
-            management optimization, creating fluid user interfaces. 
+            management and optimization, creating fluid user interfaces. 
              I am also familiar with backend development, including working with server-side technologies,
              databases, and API integrations. 
              
