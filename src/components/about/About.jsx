@@ -12,11 +12,10 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            As a Web Developer, I focused in frontend development and proficient in state
-            management and optimization, creating fluid user interfaces. 
-             I am also familiar with backend development, including working with server-side technologies,
-             databases, and API integrations. 
-             
+            I have experience in state management, optimisation, and fluid
+            user interface design in web development. I am also familiar with
+            backend development as well, including working with server-side
+            technologies, databases, and API integrations.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV{" "}
