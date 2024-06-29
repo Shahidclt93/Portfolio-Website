@@ -10,7 +10,7 @@ const Data = () => {
       <h3 className="home__subtitle">React Js Developer</h3>
       <p className="home__description">
         {" "}
-        As a React Js developer,I'm proficient in building highly responsive and dynamic websites.
+        I'm proficient in building highly responsive and dynamic websites.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
