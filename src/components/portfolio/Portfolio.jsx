@@ -47,12 +47,17 @@ const Portfolio = () => {
           <div className="project">
             <h3 className="portfolio__title">Blog App</h3>
             <p className="portfolio__description">
-              This Blog App is developed using React JS with Responsive
-              Design.The website developed for users to create, share, and
-              manage their own blogs effortlessly and this Blog App provides a
-              user-friendly interface.
+              NexusInfo-BlogApp is a React JS website developed for users to
+              create, share, and manage their own blogs effortlessly. Built with
+              modern web technologies, this application provides a user-friendly
+              interface for both bloggers and readers alike. The application
+              also includes functionality to save blog posts locally using
+              localStorage, ensuring that users can access their drafts even
+              when offline.
             </p>
-            <p className="portfolio__tech-stack">React JS | CSS</p>
+            <p className="portfolio__tech-stack">
+              React JS | Context Api | CSS
+            </p>
           </div>
           <div className="portfolio__links">
             <a
@@ -102,7 +107,6 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-
       </div>
     </section>
   );
