@@ -18,7 +18,7 @@ const About = () => {
             technologies, databases, and API integrations.
           </p>
           <a download="" href={CV} className="button button--flex">
-            Download CV{" "}
+            Download CV
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
