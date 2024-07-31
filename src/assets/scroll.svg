@@ -19,7 +19,7 @@
                   d="M123.359,79.775l0,72.843"
                   style="
                     fill: none;
-                    stroke: #000;
+                    stroke: var(--title-);
                     stroke-width: 20px;
                   "
                 ></path>

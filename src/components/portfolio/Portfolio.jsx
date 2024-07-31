@@ -3,15 +3,22 @@ import "./portfolio.css";
 import projectScreenshot1 from "../../assets/ecommerce.png";
 import projectScreenshot2 from "../../assets/blogApp.png";
 import projectScreenshot3 from "../../assets/taskManager.png";
+import projectScreenshot4 from "../../assets/theShop.png";
+import Reaveal from "../utils/Reaveal";
 
 const Portfolio = () => {
   return (
     <section className="portfolio section" id="portfolio">
+      <Reaveal axis="x" axisValue="75" AnimDelay="0.50">
       <h2 className="section__title">Portfolio</h2>
       <span className="section__subtitle">Recent works</span>
+      </Reaveal>
+      <Reaveal axis="y" axisValue="75" AnimDelay="0.30">
+
+
       <div className="portfolio__container container grid">
         <div className="portfolio__content">
-          <img src={projectScreenshot1} alt="ecommerce webite screeshot" />
+          <img src={projectScreenshot1} alt="Full Stack E-Commerce Website" />
           <div className="project">
             <h3 className="portfolio__title">Full Stack E-Commerce Website</h3>
             <p className="portfolio__description">
@@ -29,6 +36,7 @@ const Portfolio = () => {
               href="https://github.com/Shahidclt93/EMGadgets_MERN_ecommerce_full_stack"
               className="portfolio__button"
               target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
@@ -36,6 +44,7 @@ const Portfolio = () => {
               href="https://emgadgets-mern-ecommerce.onrender.com"
               className="portfolio__button"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
@@ -43,7 +52,7 @@ const Portfolio = () => {
         </div>
 
         <div className="portfolio__content">
-          <img src={projectScreenshot2} alt="ecommerce webite screeshot" />
+          <img src={projectScreenshot2} alt="Blog App" />
           <div className="project">
             <h3 className="portfolio__title">Blog App</h3>
             <p className="portfolio__description">
@@ -61,6 +70,7 @@ const Portfolio = () => {
               href="https://github.com/Shahidclt93/NexusInfo-BlogApp"
               className="portfolio__button"
               target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
@@ -68,6 +78,7 @@ const Portfolio = () => {
               href="https://nexusinfo-blog-app.onrender.com"
               className="portfolio__button"
               target="_blank"
+              rel="noreferrer"
             >
               Live Demo
             </a>
@@ -75,7 +86,7 @@ const Portfolio = () => {
         </div>
 
         <div className="portfolio__content">
-          <img src={projectScreenshot3} alt="ecommerce webite screeshot" />
+          <img src={projectScreenshot3} alt="Task Management Web App" />
           <div className="project">
             <h3 className="portfolio__title">Task Management Web App</h3>
             <p className="portfolio__description">
@@ -84,7 +95,7 @@ const Portfolio = () => {
               with an option for dark mode. It saves data in local storage.
             </p>
             <p className="portfolio__tech-stack">
-              React JS | Tailwind CSS | Redux
+              React JS | Tailwind CSS | Redux Toolkit
             </p>
           </div>
           <div className="portfolio__links">
@@ -92,11 +103,43 @@ const Portfolio = () => {
               href="https://github.com/Shahidclt93/Taskify-TaskManagement-webapp"
               className="portfolio__button"
               target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
             <a
               href="https://taskify-task-management.vercel.app"
+              className="portfolio__button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
+        <div className="portfolio__content">
+          <img src={projectScreenshot4} alt="Ecommerce Website" />
+          <div className="project">
+            <h3 className="portfolio__title">Ecommerce Website</h3>
+            <p className="portfolio__description">
+            TheShop is a fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript.
+            </p>
+            <p className="portfolio__tech-stack">
+              HTML | CSS | Javascript
+            </p>
+          </div>
+          <div className="portfolio__links">
+            <a
+              href="https://github.com/Shahidclt93/ecom-shop"
+              className="portfolio__button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://theshop-ecommerce.vercel.app"
+              rel="noreferrer"
               className="portfolio__button"
               target="_blank"
             >
@@ -105,6 +148,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      </Reaveal>
     </section>
   );
 };

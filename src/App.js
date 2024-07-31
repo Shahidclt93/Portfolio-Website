@@ -9,13 +9,13 @@ import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import ScrollUp from "./components/scrollup/ScrollUp";
+import ScrollUp from "./components/scroll/ScrollUp";
 
 const App = () => {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ["Poppins:300,400,500,600,700"],
+        families: ["Poppins:300,400,500,600,700","Saira+Stencil+One"],
       },
     });
   }, []);

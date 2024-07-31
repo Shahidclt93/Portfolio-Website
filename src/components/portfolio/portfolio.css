@@ -11,6 +11,7 @@
   overflow: hidden;
   height: fit-content;
   justify-self: center;
+  box-shadow: var(--shadow-1);
 
 }
 .portfolio__content .project {
@@ -18,6 +19,8 @@
 }
 .portfolio__content img {
   width: 100%;
+  height: 15rem;
+  object-fit: cover;
 }
 .portfolio__title {
   margin-bottom: var(--mb-1);
@@ -29,13 +32,15 @@
   padding: 1rem;
 }
 .portfolio__button {
-  color: var(--container-color);
   background-color: var(--title-color);
+  color: var(--container-color);
   border-radius: 0.2rem;
   padding: 0.2rem 0.8rem;
 }
 .portfolio__button:hover {
-  background-color: var(--text-color-dark);
+  background-color: var(--button-hover);
+  color: var(--white-color);
+  transition: 0.3s;
 }
 .portfolio__description {
   font-size: var(--small-font-size);

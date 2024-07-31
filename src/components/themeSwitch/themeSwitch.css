@@ -1,0 +1,27 @@
+.theme-btn {
+    padding: 4px;
+    width: 48px;
+    background: var(--dark-theme-color);
+    border-radius: 100px;
+    transition: 0.25s ease-in-out;
+}
+
+.theme-btn .icon {
+    position: relative;
+    display: block;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    box-shadow: inset 9px -6px #fff;
+    transition: 0.25s ease-in-out;
+}
+
+.theme-btn.active .icon {
+    left: 20px;
+    box-shadow: inset 20px -20px #f9d81a;
+}
+
+.theme-btn.active {
+    background:#b3b3b3;
+}
