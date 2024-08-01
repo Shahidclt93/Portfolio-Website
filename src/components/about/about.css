@@ -1,44 +1,71 @@
-.about__data{
- display: flex;
- flex-direction: column;
- align-items: center;
- text-align: center;
+.about {
+  overflow: hidden;
 }
+
+.about__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .about__info {
   grid-template-columns: repeat(3, 140px);
   gap: 1.5rem;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-6);
 }
-.about__box {
-  background-color: var(--container-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.75rem;
-  text-align: center;
-  padding: 1rem 1.25rem;
-  box-shadow: var(--shadow-1);
-  transition: 0.3s;
 
+.about__box_container {
+  position: relative;
+  box-shadow: var(--shadow-1);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: 0.3s;
 }
-.about__box:hover{
+
+
+.about__box_container::before {
+  content: "";
+  width: 20px;
+  height: 30px;
+  background-color: var(--primary-color);
+  position: absolute;
+  z-index: -100;
+  animation: var(--box-background-animation);
+}
+
+.about__box_container:hover {
   transform: translateY(-5px);
   transition: 0.3s;
 }
+
+.about__box {
+  background-color: var(--box-glass-color);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1rem 1.25rem;
+}
+
 .about__icon {
   font-size: 1.5rem;
   color: var(--title-color);
   margin-bottom: var(--mb-0-5);
 }
+
 .about__title {
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
 }
+
 .about__subtitle {
   font-size: var(--tiny-font-size);
 }
+
 .about__description {
   padding: 0 4rem 0 0;
   margin-bottom: var(--mb-2-5);
- width: 80%;
+  width: 80%;
 
 }
 
@@ -48,22 +75,12 @@
   .about__info {
     gap: 0.5rem;
   }
-  .about__container {
-    grid-template-columns: 1fr;
-    row-gap: 2.5rem;
-  }
-  .about__img {
-    width: 220px;
-  }
+
   .about__box {
     padding: 0.75rem 0.5rem;
   }
-  .about__data {
-    text-align: center;
-  }
-  .about__info {
-    justify-content: center;
-  }
+
+
   .about__description {
     padding: 0 5rem;
     margin-bottom: 2rem;
@@ -72,14 +89,11 @@
 
 @media screen and (max-width: 576px) {
   .about__info {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 100px);
+
   }
+
   .about__description {
     padding: 0;
-  }
-}
-@media screen and (max-width: 350px) {
-  .about__info {
-    grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -1,3 +1,7 @@
+.home {
+  overflow: hidden;
+}
+
 .home__content {
   grid-template-columns: 116px repeat(2, 1fr);
   padding-top: 5.5rem;

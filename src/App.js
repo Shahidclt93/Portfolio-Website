@@ -15,7 +15,7 @@ const App = () => {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ["Poppins:300,400,500,600,700","Saira+Stencil+One"],
+        families: ["Poppins:300,400,500,600,700", "Saira+Stencil+One"],
       },
     });
   }, []);
