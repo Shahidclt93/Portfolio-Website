@@ -1,5 +1,6 @@
 import React from "react";
-import Reaveal from "../utils/Reaveal";
+import Reaveal from "../../utils/Reaveal";
+
 
 const Data = () => {
   return (

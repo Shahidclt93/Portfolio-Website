@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import DarkMode from "../themeSwitch/ThemeSwitch";
-import Reaveal from "../utils/Reaveal";
+import Reaveal from "../../utils/Reaveal";
 import "./header.css";
 
 const Header = () => {

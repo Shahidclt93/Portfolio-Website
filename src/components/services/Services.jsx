@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Reaveal from "../utils/Reaveal";
+import Reaveal from "../../utils/Reaveal";
 import "./services.css";
 
 const Services = () => {

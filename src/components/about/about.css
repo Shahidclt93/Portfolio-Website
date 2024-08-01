@@ -26,9 +26,10 @@
 
 .about__box_container::before {
   content: "";
-  width: 20px;
+  width: 30px;
   height: 30px;
   background-color: var(--primary-color);
+  border-radius: 100%;
   position: absolute;
   z-index: -100;
   animation: var(--box-background-animation);

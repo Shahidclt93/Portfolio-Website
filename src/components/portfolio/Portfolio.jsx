@@ -4,7 +4,7 @@ import projectScreenshot1 from "../../assets/ecommerce.png";
 import projectScreenshot2 from "../../assets/blogApp.png";
 import projectScreenshot3 from "../../assets/taskManager.png";
 import projectScreenshot4 from "../../assets/theShop.png";
-import Reaveal from "../utils/Reaveal";
+import Reaveal from "../../utils/Reaveal";
 
 const Portfolio = () => {
   return (

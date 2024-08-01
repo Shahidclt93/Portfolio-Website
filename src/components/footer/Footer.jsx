@@ -1,5 +1,5 @@
 import React from "react";
-import Reaveal from "../utils/Reaveal";
+import Reaveal from "../../utils/Reaveal";
 import "./footer.css";
 
 const Footer = () => {
@@ -41,13 +41,13 @@ const Footer = () => {
         <Reaveal axis="y" axisValue="75" AnimDelay="0.25">
 
         <div className="footer__social">
-          <a href="" className="footer__social-link" target="_blank">
+          <a href="" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-instagram"></i>
           </a>
-          <a href="https://www.linkedin.com/in/sayed-shahid-5819632b4" className="footer__social-link" target="_blank">
+          <a href="https://www.linkedin.com/in/sayed-shahid-5819632b4" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-linkedin"></i>
           </a>
-          <a href="https://github.com/Shahidclt93" className="footer__social-link" target="_blank">
+          <a href="https://github.com/Shahidclt93" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-github"></i>
           </a>
         </div>
