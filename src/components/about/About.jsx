@@ -11,7 +11,7 @@ const About = () => {
         <h2 className="section__title">About Me</h2>
         <span className="section__subtitle">My Introduction</span>
       </Reaveal>
-      <Reaveal axis="y" axisValue="75" AnimeDur="0.30">
+      <Reaveal axis="y" axisValue="-150" AnimeDur="0.30">
         <div className="about__container container">
           <div className="about__data">
             <Info />
