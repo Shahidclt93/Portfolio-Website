@@ -6,7 +6,7 @@ const Data = () => {
   return (
     <div className="home__data">
       <Reaveal axis="y" axisValue="75" AnimDelay="0.75">
-        <h1 className="home__title">Hey I'm Shahid</h1>
+        <h1 className="home__title">Hey! I'm Shahid</h1>
       </Reaveal>
       <Reaveal axis="y" axisValue="75" AnimDelay="0.80">
         <h3 className="home__subtitle">React Js Developer</h3>
