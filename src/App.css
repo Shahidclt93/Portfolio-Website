@@ -54,8 +54,8 @@
   --z-modal: 1000;
 
   /* animation */
-
-  --box-background-animation : movingBoxBackground 45s  ease-in-out infinite;
+  /* --duration:; */
+  --box-background-animation : moving-box-background 45s  ease-in-out infinite;
 }
 
 
@@ -100,11 +100,10 @@ body.dark_mode {
   background-color: var(--primary-color);
 }
 
-@keyframes movingBoxBackground {
+@keyframes moving-box-background {
   0%{
     top: 12px;
     left: 0;
-    
   }
   50%{
     top: 90%;

@@ -26,8 +26,8 @@
 
 .about__box_container::before {
   content: "";
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background-color: var(--primary-color);
   border-radius: 100%;
   position: absolute;

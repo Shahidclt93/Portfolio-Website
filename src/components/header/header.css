@@ -30,6 +30,11 @@
 .nav__list {
   display: flex;
   column-gap: 2rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav__item:active {
+  color: var(--primary-color);
 }
 
 .nav__link {
@@ -52,10 +57,10 @@
 .nav__toggle .uil-apps::before {
   font-size: var(--h3-font-size);
   font-size: 1.5rem;
-
 }
 
 /* Active-link */
+
 .active-link,
 .nav__link:hover {
   color: var(--title-color-dark);
@@ -77,6 +82,7 @@
 }
 
 /* For medium screens */
+
 @media screen and (max-width: 768px) {
   .header {
     top: initial;
@@ -86,6 +92,10 @@
   }
 
   .nav {
+    height: var(--header-height);
+  }
+
+  .header.scroll-header .nav {
     height: var(--header-height);
   }
 
@@ -111,13 +121,12 @@
   }
 
   .nav__link {
-    color: #FFF;
+    color: var(--white-color);
   }
 
   .nav__menu .uil-times::before {
-    color: #FFF;
+    color: var(--white-color);
   }
-
 
   .active-link,
   .nav__link:hover {
