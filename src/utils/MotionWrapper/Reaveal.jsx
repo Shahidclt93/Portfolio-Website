@@ -31,7 +31,7 @@ const Reaveal = ({ children, width = "100%", axis, axisValue, AnimDelay }) => {
         }
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: "0.6", delay: AnimDelay }}
+        transition={{ duration: "0.5", delay: AnimDelay }}
       >
         {children}
       </motion.div>

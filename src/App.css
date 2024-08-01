@@ -54,7 +54,6 @@
   --z-modal: 1000;
 
   /* animation */
-  /* --duration:; */
   --box-background-animation : moving-box-background 45s  ease-in-out infinite;
 }
 
@@ -112,6 +111,7 @@ body.dark_mode {
   100%{
     top: 12px;
     left: 0;
+
   }
 }
 
