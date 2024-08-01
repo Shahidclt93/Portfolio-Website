@@ -16,7 +16,7 @@ const Reaveal = ({ children, width = "100%", axis, axisValue, AnimDelay }) => {
   }, [isInView, mainControls]);
 
   return (
-    <div ref={ref} style={{ position: "relative", width }}>
+    <div ref={ref} style={{ position: "relative" }}>
       <motion.div
         variants={
           axisVal

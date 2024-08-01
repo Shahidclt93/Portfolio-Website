@@ -11,17 +11,20 @@ const About = () => {
         <h2 className="section__title">About Me</h2>
         <span className="section__subtitle">My Introduction</span>
       </Reaveal>
-      <Reaveal axis="y" axisValue="-150" AnimeDur="0.30">
         <div className="about__container container">
           <div className="about__data">
+          <Reaveal axis="y" axisValue="75" AnimeDur="0.60">
             <Info />
+            </Reaveal>
+            <Reaveal axis="y" axisValue="75" AnimeDur="0.70">
             <p className="about__description">
               I have experience in state management, optimisation, and fluid
               user interface design in web development. I am also familiar with
               backend development as well, including working with server-side
               technologies, databases, and API integrations.
             </p>
-
+            </Reaveal>
+            <Reaveal axis="y" axisValue="75" AnimeDur="0.80">
             <a download="" href={CV} className="button button--flex">
               Download CV
               <svg
@@ -50,9 +53,9 @@ const About = () => {
                 ></path>
               </svg>
             </a>
+            </Reaveal>
           </div>
         </div>
-      </Reaveal>
     </section>
   );
 };

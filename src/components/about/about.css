@@ -12,7 +12,7 @@
 .about__info {
   grid-template-columns: repeat(3, 140px);
   gap: 1.5rem;
-  margin-bottom: var(--mb-6);
+  margin-bottom: var(--mb-3);
 }
 
 .about__box_container {
@@ -67,6 +67,8 @@
   padding: 0 4rem 0 0;
   margin-bottom: var(--mb-2-5);
   width: 80%;
+  margin: auto;
+  margin-bottom: var(--mb-3);
 
 }
 

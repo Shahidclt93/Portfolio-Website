@@ -9,7 +9,7 @@ const Skills = () => {
         <h2 className="section__title">Skills</h2>
         <span className="section__subtitle">My technical level</span>
       </Reaveal>
-      <Reaveal axis="y" axisValue="-150" AnimeDur="0.30">
+      <Reaveal axis="y" axisValue="75" AnimeDur="0.60">
         <div className="skills__container container grid">
           <div className="skills__content">
             <div className="skills__box">
