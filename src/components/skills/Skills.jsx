@@ -1,5 +1,5 @@
 import React from "react";
-import Reaveal from "../../utils/Reaveal";
+import Reaveal from "../../utils/MotionWrapper/Reaveal";
 import "./skills.css";
 
 const Skills = () => {

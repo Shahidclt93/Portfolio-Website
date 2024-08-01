@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
-import Reaveal from "../../utils/Reaveal";
+import Reaveal from "../../utils/MotionWrapper/Reaveal";
 
 const Contact = () => {
   const form = useRef();

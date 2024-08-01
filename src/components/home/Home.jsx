@@ -3,7 +3,7 @@ import "./home.css";
 import Social from "../home/Social";
 import Data from "./Data";
 import ScrollDown from "../scroll/ScrollDown";
-import Reaveal from "../../utils/Reaveal";
+import Reaveal from "../../utils/MotionWrapper/Reaveal";
 
 const Home = () => {
   return (

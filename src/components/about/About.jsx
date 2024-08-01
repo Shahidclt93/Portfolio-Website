@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import CV from "../../assets/CV.pdf";
 import Info from "./Info";
-import Reaveal from "../../utils/Reaveal";
+import Reaveal from "../../utils/MotionWrapper/Reaveal";
 
 const About = () => {
   return (
