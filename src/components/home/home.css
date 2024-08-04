@@ -55,10 +55,6 @@
   top: 1rem;
 }
 
-.home__data .button {
-  margin-bottom: var(--mb-1);
-}
-
 .home__img {
   background: url(../../assets/profile.png);
   background-repeat: no-repeat;
@@ -88,6 +84,7 @@
 
 .home__scroll {
   margin-left: 9.25rem;
+  margin-top: var(--mb-1);
 }
 
 .wheel {

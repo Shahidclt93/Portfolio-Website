@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 
-const Reaveal = ({ children, width = "100%", axis, axisValue, AnimDelay }) => {
+const Reaveal = ({ children, axis, axisValue, AnimDelay }) => {
   const ref = useRef();
   const isInView = useInView(ref, { once: true });
 
@@ -16,7 +16,7 @@ const Reaveal = ({ children, width = "100%", axis, axisValue, AnimDelay }) => {
   }, [isInView, mainControls]);
 
   return (
-    <div ref={ref} style={{ position: "relative" }}>
+    <div ref={ref}>
       <motion.div
         variants={
           axisVal

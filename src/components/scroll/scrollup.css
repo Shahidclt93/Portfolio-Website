@@ -45,9 +45,3 @@
     bottom: 4rem;
   }
 }
-
-@media screen and (max-width: 350px) {
-  .show-scroll {
-    bottom: 1rem;
-  }
-}

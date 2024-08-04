@@ -10,7 +10,7 @@
   width: fit-content;
   box-shadow: var(--shadow-1);
   border-radius: 1.25rem;
-  
+  margin: auto;
 }
 
 .skills__container::after {
@@ -74,6 +74,7 @@
 @media screen and (max-width: 576px) {
   .skills__container {
     display: flex;
+    margin: 0  var(--mb-1-5);
   }
 
   .skills__content {
