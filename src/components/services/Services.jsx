@@ -14,7 +14,7 @@ const Services = () => {
         <h2 className="section__title">Services</h2>
         <span className="section__subtitle">What i offer</span>
       </Reaveal>
-      <Reaveal axis="y" axisValue="75" AnimeDur="0.70">
+      <Reaveal axis="y" axisValue="-75" AnimeDur="0.70">
         <div className="services__container container grid">
           <div className="services__content">
             <div>

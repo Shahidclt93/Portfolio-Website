@@ -7,16 +7,16 @@ import Reaveal from "../../utils/MotionWrapper/Reaveal";
 const About = () => {
   return (
     <section className="about section" id="about">
-      <Reaveal axis="x" axisValue="75" AnimeDur="0.50">
+      <Reaveal axis="x" axisValue="10" AnimeDur="0.50">
         <h2 className="section__title">About Me</h2>
         <span className="section__subtitle">My Introduction</span>
       </Reaveal>
         <div className="about__container container">
           <div className="about__data">
-          <Reaveal axis="y" axisValue="75" AnimeDur="0.60">
+          <Reaveal axis="y" axisValue="-75" AnimeDur="0.60">
             <Info />
             </Reaveal>
-            <Reaveal axis="y" axisValue="75" AnimeDur="0.70">
+            <Reaveal axis="y" axisValue="-75" AnimeDur="0.70">
             <p className="about__description">
               I have experience in state management, optimisation, and fluid
               user interface design in web development. I am also familiar with
@@ -24,7 +24,7 @@ const About = () => {
               technologies, databases, and API integrations.
             </p>
             </Reaveal>
-            <Reaveal axis="y" axisValue="75" AnimeDur="0.80">
+            <Reaveal axis="y" axisValue="-75" AnimeDur="0.80">
             <a download="" href={CV} className="button button--flex">
               Download CV
               <svg

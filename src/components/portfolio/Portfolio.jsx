@@ -15,7 +15,7 @@ const Portfolio = () => {
       </Reaveal>
 
       <div className="portfolio__container container grid">
-        <Reaveal axis="y" axisValue="75" AnimDelay="0.60">
+        <Reaveal axis="y" axisValue="-75" AnimDelay="0.60">
           <div className="portfolio__content">
             <img src={projectScreenshot1} alt="Full Stack E-Commerce Website" />
             <div className="project">
@@ -86,7 +86,7 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        <Reaveal axis="y" axisValue="75" AnimDelay="0.60">
+        <Reaveal axis="y" axisValue="-75" AnimDelay="0.60">
           <div className="portfolio__content">
             <img src={projectScreenshot3} alt="Task Management Web App" />
             <div className="project">
