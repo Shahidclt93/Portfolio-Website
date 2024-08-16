@@ -9,7 +9,7 @@ const Data = () => {
         <h1 className="home__title">Hey! I'm Shahid</h1>
       </Reaveal>
       <Reaveal axis="y" axisValue="75" AnimDelay="0.80">
-        <h3 className="home__subtitle">React Js Developer</h3>
+        <h3 className="home__subtitle">Web Developer</h3>
       </Reaveal>
       <Reaveal axis="y" axisValue="75" AnimDelay="0.85">
         <p className="home__description">
