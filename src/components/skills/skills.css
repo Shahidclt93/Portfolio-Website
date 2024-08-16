@@ -6,29 +6,15 @@
   grid-template-columns: repeat(1, 750px);
   justify-content: center;
   position: relative;
-  overflow: hidden;
-  width: fit-content;
-  box-shadow: var(--shadow-1);
-  border-radius: 1.25rem;
   margin: auto;
-}
-
-.skills__container::after {
-  content: "";
-  width: 30px;
-  height: 30px;
-  background-color: var(--primary-color);
-  border-radius: 100%;
-  position: absolute;
-  z-index: -100;
-  animation: var(--box-background-animation);
 }
 
 .skills__content {
   background-color: var(--box-glass-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 2rem 4rem;
-  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-1);
+  border-radius: 1.25rem;
 }
 
 .skills__box {

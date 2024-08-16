@@ -41,7 +41,7 @@ const Skills = () => {
                 <i className="bx bx-badge-check"></i>
                 <div>
                   <h3 className="skills__name">JavaScript</h3>
-                  <span className="skills__level">Intermediate</span>
+                  <span className="skills__level">Advanced</span>
                 </div>
               </div>
               <div className="skills__data">
@@ -56,6 +56,27 @@ const Skills = () => {
                 <div>
                   <h3 className="skills__name">Git</h3>
                   <span className="skills__level">Intermediate</span>
+                </div>
+              </div>
+              <div className="skills__data">
+                <i className="bx bx-badge-check"></i>
+                <div>
+                  <h3 className="skills__name">Next Js</h3>
+                  <span className="skills__level">Intermediate</span>
+                </div>
+              </div>
+              <div className="skills__data">
+                <i className="bx bx-badge-check"></i>
+                <div>
+                  <h3 className="skills__name">Express Js</h3>
+                  <span className="skills__level">Intermediate</span>
+                </div>
+              </div>
+              <div className="skills__data">
+                <i className="bx bx-badge-check"></i>
+                <div>
+                  <h3 className="skills__name">Tailwind CSS</h3>
+                  <span className="skills__level">Advanced</span>
                 </div>
               </div>
             </div>

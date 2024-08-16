@@ -23,18 +23,6 @@
   transition: 0.3s;
 }
 
-
-.about__box_container::before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  background-color: var(--primary-color);
-  border-radius: 100%;
-  position: absolute;
-  z-index: -100;
-  animation: var(--box-background-animation);
-}
-
 .about__box_container:hover {
   transform: translateY(-5px);
   transition: 0.3s;
@@ -107,6 +95,6 @@
 }
 @media screen and (max-width: 320px) {
   .about__info {
-    /* grid-template-columns: 1fr; */
+    grid-template-columns: 1fr;
   }
 }

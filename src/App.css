@@ -53,8 +53,6 @@
   --z-fixed: 100;
   --z-modal: 1000;
 
-  /* animation */
-  --box-background-animation : moving-box-background 45s  ease-in-out infinite;
 }
 
 
@@ -124,6 +122,9 @@ body.dark_mode {
 html {
   scroll-behavior: smooth;
 
+}
+::selection{
+  background-color: var(--primary-color);
 }
 
 body,

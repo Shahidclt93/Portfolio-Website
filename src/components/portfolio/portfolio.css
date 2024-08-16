@@ -15,7 +15,6 @@
   background-color: var(--box-glass-color);
   overflow: hidden;
   height: fit-content;
-  justify-self: center;
   box-shadow: var(--shadow-1);
 
 }
@@ -66,5 +65,6 @@
 @media screen and (max-width: 992px) {
   .portfolio__container {
     gap: 1rem;
+    place-items: center;
   }
 }

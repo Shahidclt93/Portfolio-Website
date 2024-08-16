@@ -5,7 +5,6 @@
 .services__container {
   grid-template-columns: repeat(3, 270px);
   justify-content: center;
-  column-gap: 1.8rem;
 }
 
 .services__content {
@@ -139,6 +138,12 @@
 }
 
 @media screen and (max-width: 576px) {
+  .services__container {
+    gap: 0.8rem;
+  }
+  .services__content{
+    padding: 3.5rem 0.5rem 1.25rem 1rem;
+  }
   .services__modal-content {
     padding: 4.5rem 1.5rem 2.5rem;
   }
@@ -148,6 +153,7 @@
   .services__container {
     grid-template-columns: max-content;
   }
+ 
 
   .services__content {
     padding-right: 6rem;
