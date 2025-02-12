@@ -4,6 +4,7 @@ import projectScreenshot1 from "../../assets/ecommerce.png";
 import projectScreenshot2 from "../../assets/blogApp.png";
 import projectScreenshot3 from "../../assets/taskManager.png";
 import projectScreenshot4 from "../../assets/theShop.png";
+import projectScreenshot5 from "../../assets/jobPortal.PNG";
 import Reaveal from "../../utils/MotionWrapper/Reaveal";
 
 const Portfolio = () => {
@@ -14,8 +15,40 @@ const Portfolio = () => {
         <span className="section__subtitle">Recent works</span>
       </Reaveal>
 
+      <Reaveal axis="y" axisValue="75" AnimDelay="0.50">
       <div className="portfolio__container container grid">
-        <Reaveal axis="y" axisValue="-75" AnimDelay="0.60">
+          <div className="portfolio__content">
+            <img src={projectScreenshot5} alt="Full Stack E-Commerce Website" />
+            <div className="project">
+              <h3 className="portfolio__title">
+                Job Portal
+              </h3>
+              <p className="portfolio__description">
+              Job portal website that manages job postings, receives applications, and creates a hiring workflow for these applications. An admin dashboard allows job applications management, including adding and deleting jobs.
+              </p>
+              <p className="portfolio__tech-stack">
+                React JS | RTK | Express | MongoDB | Cloudinary | Tailwind
+              </p>
+            </div>
+            <div className="portfolio__links">
+              <a
+                href="https://github.com/Shahidclt93/CareerCraft-JobPortal"
+                className="portfolio__button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://careercraft-frontend.onrender.com"
+                className="portfolio__button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
           <div className="portfolio__content">
             <img src={projectScreenshot1} alt="Full Stack E-Commerce Website" />
             <div className="project">
@@ -51,7 +84,6 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-        </Reaveal>
 
         <div className="portfolio__content">
           <img src={projectScreenshot2} alt="Blog App" />
@@ -86,7 +118,6 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        <Reaveal axis="y" axisValue="-75" AnimDelay="0.60">
           <div className="portfolio__content">
             <img src={projectScreenshot3} alt="Task Management Web App" />
             <div className="project">
@@ -120,7 +151,6 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-        </Reaveal>
         <div className="portfolio__content">
           <img src={projectScreenshot4} alt="Ecommerce Website" />
           <div className="project">
@@ -152,6 +182,8 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      </Reaveal>
+
     </section>
   );
 };
