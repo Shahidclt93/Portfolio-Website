@@ -5,6 +5,7 @@ import projectScreenshot2 from "../../assets/blogApp.png";
 import projectScreenshot3 from "../../assets/taskManager.png";
 import projectScreenshot4 from "../../assets/theShop.png";
 import projectScreenshot5 from "../../assets/jobPortal.PNG";
+import projectScreenshot6 from "../../assets/spendwise-capture.PNG";
 import Reaveal from "../../utils/MotionWrapper/Reaveal";
 
 const Portfolio = () => {
@@ -17,6 +18,42 @@ const Portfolio = () => {
 
       <Reaveal axis="y" axisValue="75" AnimDelay="0.50">
       <div className="portfolio__container container grid">
+
+
+      <div className="portfolio__content">
+            <img src={projectScreenshot6} alt="Expense Tracker" />
+            <div className="project">
+              <h3 className="portfolio__title">
+                Expense Tracker
+              </h3>
+              <p className="portfolio__description">
+              Spendwise helps users track income, expenses, and budgets all in one place. With a personalized dashboard, it gives a clear overview of financial activity including total budget, spending, and income streams. Users can create and manage multiple budgets, monitor their spending patterns.
+              </p>
+              <p className="portfolio__tech-stack">
+                Next JS | Tailwind | Shadcn | Drizzle | Neon | Aceternity UI
+              </p>
+            </div>
+            <div className="portfolio__links">
+              <a
+                href="https://github.com/Shahidclt93/spendwise-expense-tracker"
+                className="portfolio__button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://spendwise-expense-tracker-woad.vercel.app"
+                className="portfolio__button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+
+
           <div className="portfolio__content">
             <img src={projectScreenshot5} alt="Full Stack E-Commerce Website" />
             <div className="project">
