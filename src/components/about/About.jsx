@@ -15,7 +15,7 @@ const About = () => {
         <div className="about__data">
           <Reaveal axis="y" axisValue="-75" AnimeDur="0.70">
             <p className="about__description">
-              My Name is Shahid, a frontend web developer with the goal of
+              My Name is Shahid, a full stack web developer with the goal of
               advancing my career and participating in inspiring projects. Here,
               i showcase my work and my passion for web development.
             </p>
