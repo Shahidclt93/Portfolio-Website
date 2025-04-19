@@ -13,7 +13,7 @@ const Data = () => {
       </Reaveal>
       <Reaveal axis="y" axisValue="75" AnimDelay="0.85">
         <p className="home__description">
-          I develop highly responsive and dynamic websites.
+        I specialize in building responsive, user-centric websites and well-architected backend systems.
         </p>
       </Reaveal>
       <Reaveal axis="y" axisValue="75" AnimDelay="0.90">

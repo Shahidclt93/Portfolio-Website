@@ -15,9 +15,7 @@ const About = () => {
         <div className="about__data">
           <Reaveal axis="y" axisValue="-75" AnimeDur="0.70">
             <p className="about__description">
-              My Name is Shahid, a full stack web developer with the goal of
-              advancing my career and participating in inspiring projects. Here,
-              i showcase my work and my passion for web development.
+            Hi, I’m Shahid — a Web Developer from India, passionate about building high-quality, scalable web and mobile applications. I specialize in React.js, Next.js, Express and Node.js, and enjoy turning ideas into impactful digital solutions that help businesses and individuals thrive online.
             </p>
           </Reaveal>
           <Reaveal axis="y" axisValue="-75" AnimeDur="0.60">
